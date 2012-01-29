@@ -1,6 +1,6 @@
 import java.io.*;
 
-interface Person
+interface SetGet
 {
 
 public void setName(String n);
@@ -8,7 +8,7 @@ public void setName(String n);
 public String getName();
 }
 
-class Student implements Person
+class Student implements SetGet
 {
 private String stuNum;
 private String name;
